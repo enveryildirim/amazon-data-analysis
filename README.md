@@ -8,7 +8,7 @@ This project analyzes e-commerce sales data from multiple platforms (Amazon, Fli
 
 **Full Project Reports:**
 
-- [🇬🇧 Engineering Report (English)](project_report.md) - Detailed analysis, methodology, and technical findings.
+- [🇬🇧 Project Report (English)](project_report.md) - Detailed analysis, methodology, and technical findings.
 - [🇹🇷 Proje Raporu (Türkçe)](project_report_tr.md) - Kapsamlı analiz ve sonuç raporu.
 
 ### Key Features
