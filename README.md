@@ -118,23 +118,6 @@ Run notebooks in order:
 3. **05_feature_engineering.ipynb** - Extract features for ML (requires Java)
 4. **06_sales_prediction_model.ipynb** - Train sales prediction models (requires Java)
 
-### Running Batch Scripts
-
-For automation, use batch scripts:
-
-```bash
-source .venv/bin/activate
-
-# Train ML models (requires Java)
-spark-submit scripts/train_model.py
-
-# Alternative: Python-based data loading (no Java)
-python scripts/data_loader_pandas.py
-
-# Alternative: Spark-based data loading (requires Java)
-spark-submit scripts/data_loader.py
-```
-
 ## Project Structure
 
 ```
