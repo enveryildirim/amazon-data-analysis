@@ -93,13 +93,7 @@ Data has already been pre-processed and saved to Parquet format in `processed/`.
 
 ```bash
 source .venv/bin/activate
-python scripts/data_loader_pandas.py
-```
-
-**Note:** For Spark-based processing (ML pipeline), use `scripts/data_loader.py` after installing Java:
-
-```bash
-spark-submit scripts/data_loader.py
+python data_loader_pandas.py
 ```
 
 ### Running Analysis Notebooks
