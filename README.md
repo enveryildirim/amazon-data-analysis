@@ -55,7 +55,6 @@ sudo apt-get install openjdk-11-jdk
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 ```
 
-For detailed Java installation instructions, see [JAVA_INSTALLATION.md](JAVA_INSTALLATION.md)
 
 ### Setup Virtual Environment
 
@@ -116,11 +115,8 @@ Run notebooks in order:
 
 1. **01_data_exploration.ipynb** - Schema inspection, basic statistics, data quality report
 2. **02_sales_analysis.ipynb** - Sales trends, category performance, geographic analysis, B2B vs B2C
-3. **03_platform_profitability.ipynb** - Platform price comparison, margin analysis, warehouse costs
-4. **04_inventory_analysis.ipynb** - Stock levels, size/color distribution, low/high stock alerts
-5. **05_feature_engineering.ipynb** - Extract features for ML (requires Java)
-6. **06_sales_prediction_model.ipynb** - Train sales prediction models (requires Java)
-7. **07_profitability_prediction.ipynb** - Train profitability models (requires Java)
+3. **05_feature_engineering.ipynb** - Extract features for ML (requires Java)
+4. **06_sales_prediction_model.ipynb** - Train sales prediction models (requires Java)
 
 ### Running Batch Scripts
 
@@ -155,11 +151,8 @@ big-data/
 ├── notebooks/                  # Jupyter analysis notebooks
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_sales_analysis.ipynb
-│   ├── 03_platform_profitability.ipynb
-│   ├── 04_inventory_analysis.ipynb
 │   ├── 05_feature_engineering.ipynb
 │   ├── 06_sales_prediction_model.ipynb
-│   ├── 07_profitability_prediction.ipynb
 │   └── output/                # Generated visualizations
 ├── scripts/                   # Batch processing scripts
 │   ├── data_loader.py          # Spark-based loader (requires Java)
