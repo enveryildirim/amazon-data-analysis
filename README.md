@@ -253,11 +253,10 @@ If Spark fails to start without Java, use pandas-based analysis notebooks instea
 
 When contributing to this project:
 
-1. Follow the guidelines in `AGENTS.md`
-2. Test any changes in notebooks before committing
-3. Use descriptive variable and function names
-4. Add docstrings to all functions
-5. Update this README with significant changes
+1. Test any changes in notebooks before committing
+2. Use descriptive variable and function names
+3. Add docstrings to all functions
+4. Update this README with significant changes
 
 ## License
 
